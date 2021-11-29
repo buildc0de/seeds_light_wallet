@@ -29,7 +29,10 @@ class SeedsApp extends StatelessWidget {
               final navigator = NavigationService.of(context);
               return MaterialApp(
                 localizationsDelegates: AppLocalizations.localizationsDelegates,
-                supportedLocales: AppLocalizations.supportedLocales,
+                supportedLocales: [
+                  Locale('en', ''), // English, no country code
+                  Locale('es', ''), // Spanish, no country code
+                ],
                 theme: SeedsAppTheme.darkTheme,
                 navigatorKey: navigator.appNavigatorKey,
                 onGenerateRoute: navigator.onGenerateRoute,
