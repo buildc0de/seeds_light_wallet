@@ -1,0 +1,6 @@
+{
+  "helloWorld": "Hola Mundo!",
+  "@helloWorld": {},
+  "testKey1": "Clave de prueba 1",
+  "@testKey1": {}
+}
