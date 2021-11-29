@@ -13,9 +13,7 @@ class FirstPage extends StatelessWidget {
       onboardingImage: "assets/images/onboarding/onboarding5.png",
       topPadding: 30,
       title: AppLocalizations.of(context)!.helloWorld,
-      subTitle:
-          "Make payments globally without any fees.\nEarn rewards when you support\n‘Regenerative’ organizations and people."
-              .i18n,
+      subTitle: AppLocalizations.of(context)!.testKey1,
       topLeaf1: Positioned(
         right: 80,
         top: -10,
