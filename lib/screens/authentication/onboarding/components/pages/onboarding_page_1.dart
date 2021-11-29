@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:seeds/i18n/onboarding/onboarding.i18n.dart';
 import 'package:seeds/screens/authentication/onboarding/components/onboarding_pages.dart';
@@ -11,7 +12,7 @@ class FirstPage extends StatelessWidget {
     return OnboardingPage(
       onboardingImage: "assets/images/onboarding/onboarding5.png",
       topPadding: 30,
-      title: "Better\nThan Free\nTransactions".i18n,
+      title: AppLocalizations.of(context)!.helloWorld,
       subTitle:
           "Make payments globally without any fees.\nEarn rewards when you support\n‘Regenerative’ organizations and people."
               .i18n,
