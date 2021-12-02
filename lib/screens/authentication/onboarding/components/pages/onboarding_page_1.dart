@@ -9,11 +9,13 @@ class FirstPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final t = AppLocalizations.of(context)!;
+
     return OnboardingPage(
       onboardingImage: "assets/images/onboarding/onboarding5.png",
       topPadding: 30,
-      title: AppLocalizations.of(context)!.helloWorld,
-      subTitle: AppLocalizations.of(context)!.testKey1,
+      title: t.helloWorld,
+      subTitle: t.heroCount(0) + " | " + t.heroCount(1) + " | " + t.heroCount(2),
       topLeaf1: Positioned(
         right: 80,
         top: -10,

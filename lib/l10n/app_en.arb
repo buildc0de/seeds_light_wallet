@@ -5,4 +5,10 @@
   "@testKey1": {},
   "testKey2": "Test Key 2",
   "@testKey2": {}
+  "heroCount": "{count,plural, =0{No heroes yet} =1{1 hero} other{{count} heroes}}",
+  "@heroCount": {
+    "placeholders": {
+      "count": {}
+    }
+  }
 }
