@@ -2,5 +2,11 @@
   "helloWorld": "Hello, world!",
   "@helloWorld": {},
   "testKey1": "Test Key 1",
-  "@testKey1": {}
+  "@testKey1": {},
+  "heroCount": "{count,plural, =0{No heroes yet} =1{1 hero} other{{count} heroes}}",
+  "@heroCount": {
+    "placeholders": {
+      "count": {}
+    }
+  }
 }
