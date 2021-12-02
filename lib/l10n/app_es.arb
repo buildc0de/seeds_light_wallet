@@ -4,5 +4,11 @@
   "testKey1": "Clave de prueba 1",
   "@testKey1": {},
   "testKey2": "Clave de prueba 2",
-  "@testKey2": {}
+  "@testKey2": {},
+  "heroCount": "{count,plural, =0{Aún no hay héroes} =1{1 héroe} other{{count} heroínas}}",
+  "@heroCount": {
+    "placeholders": {
+      "count": {}
+    }
+  }
 }
