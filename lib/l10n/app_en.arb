@@ -10,5 +10,7 @@
     "placeholders": {
       "count": {}
     }
-  }
+  },
+  "testKey3": "Test Key 3",
+  "@testKey3": {}
 }
