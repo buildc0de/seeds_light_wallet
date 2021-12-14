@@ -14,5 +14,6 @@
   "testKey3": "Test Key 3",
   "@testKey3": {},
   "helloWorld2": "Hello, world 2!",
-  "helloWorld3": "Hello, world 3!"
+  "helloWorld3": "Hello, world 3!",
+  "testKey4": "Test Key 4"
 }
