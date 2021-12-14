@@ -12,5 +12,6 @@
     }
   },
   "testKey3": "Test Key 3",
-  "@testKey3": {}
+  "@testKey3": {},
+  "helloWorld2": "Hello, world 2!"
 }
