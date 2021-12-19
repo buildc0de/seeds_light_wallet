@@ -16,5 +16,7 @@
   "helloWorld2": "Hola Mundo 2!",
   "@helloWorld2": {},
   "helloWorld3": "Hola Mundo 3!",
-  "@helloWorld3": {}
+  "@helloWorld3": {},
+  "testKey4": "Clave de prueba 4",
+  "@testKey4": {}
 }
